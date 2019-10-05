@@ -10,6 +10,8 @@ npm i
 
 npm start
 
-
-
+cd backend
+(install requirements under a virtualenv)
+python manage.py migrate
+python manage.py runserver
 

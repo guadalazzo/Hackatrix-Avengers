@@ -23,8 +23,8 @@ class Map extends Component {
     const {longitude, latitude} = place.location;
     
     return (
-      <Marker key={`marker-${index}`} longitude={longitude} latitude={latitude} onClick={() => {console.log('HOLA')}}>
-        <CityPin size={35} />
+      <Marker key={`marker-${index}`} longitude={longitude} latitude={latitude} >
+        <CityPin size={35} onClick={() => {console.log('HOLA')}} />
         <span className="marker-price" >$ {place.price}</span>
       </Marker>
     );

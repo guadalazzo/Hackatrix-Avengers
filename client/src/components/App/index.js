@@ -7,7 +7,7 @@ import './styles.scss';
 function App() {
   return (
     <div className='main-container'>
-      <MapContainer overlay={false} />
+      <MapContainer overlay={true} />
       <Navbar />
     </div>
   );

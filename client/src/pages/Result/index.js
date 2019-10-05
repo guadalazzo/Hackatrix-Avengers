@@ -1,16 +1,15 @@
 import React from 'react';
-import MapContainer from '../Map';
-import Navbar from '../Navbar';
+
+import MapContainer from '../../components/Map';
 
 import './styles.scss';
 
-function App() {
+function Result() {
   return (
     <div className='main-container'>
       <MapContainer overlay={false} />
-      <Navbar />
     </div>
   );
 }
 
-export default App;
+export default Result;

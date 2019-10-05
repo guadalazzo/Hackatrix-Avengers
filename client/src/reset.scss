@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.css';
+
 :root {
   --font-size: calc(16px + 0.25vw);
   --grey-1: #fafafa;
@@ -19,6 +21,7 @@
   padding: 0;
   box-sizing: border-box;
   background-repeat: no-repeat;
+  font-family: 'Montserrat', sans-serif;
 }
 
 html {

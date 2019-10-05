@@ -1,7 +1,7 @@
 import React from 'react';
 import {Component} from 'react';
 import ReactMapGL from 'react-map-gl';
-import './styles.css';
+import './styles.scss';
 
 class Map extends Component {
 
@@ -18,7 +18,6 @@ class Map extends Component {
   render() {
     return (
       <ReactMapGL
-        className="papa"
         {...this.state.viewport}
         onViewportChange={(viewport) => this.setState({viewport})}
       />

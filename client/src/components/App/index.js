@@ -2,7 +2,7 @@ import React from 'react';
 import MapContainer from '../Map';
 
 
-import './styles.css'
+import './styles.scss'
 
 function App() {
   return (

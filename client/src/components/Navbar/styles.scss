@@ -1,3 +1,52 @@
-.logo {
-  z-index: 10;
+
+
+nav {
+  margin-top: 20px;
 }
+
+.div-nav{
+  z-index: 2;
+}
+
+.nav-list{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-list li{
+  margin-right: 30px;
+}
+
+.btn{
+
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  text-align: center;
+}
+
+.btn a{
+  color: #fff;
+  font-weight: bold;
+  vertical-align: text-bottom;
+  margin-left:5px;
+}
+.btn-guest{
+  background-color: #FF3100;
+}
+
+
+.btn-owner{
+  background-color: #FF8234; 
+
+}
+
+.btn-guest>img,
+.btn-owner>img{
+  width: 20px;
+  height: 20px;
+  vertical-align: sub;
+}
+

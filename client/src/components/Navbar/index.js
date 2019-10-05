@@ -1,25 +1,25 @@
 import React from 'react';
-import Button from 'antd';
+import './styles.scss';
 
 class Navbar extends React.Component {
   render() {
     return (
-      <nav>
-        <ul className=''>
-          <li>
-            <h4 className='logo'>LOGO</h4>
-          </li>
-          <li>
-            <button>Log in</button>
-          </li>
-        </ul>
-      </nav>
+      <div className='div-nav'>
+        <nav>
+          <ul className='nav-list'>
+            <li>
+              <button className='btn btn-guest'><img src='icon-user.svg'></img><a href='#'>Log In</a></button>
+            </li>
+            <li>
+              <button className='btn btn-owner'><img src='icon-house.svg'></img><a href='#'>Log In</a></button>
+            </li>
+          </ul>
+       </nav>
+      </div>
+      
     );
   }
 }
 
-class GuestButton extends React.Component {
-  state;
-}
-
 export default Navbar;
+

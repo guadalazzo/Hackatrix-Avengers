@@ -1,13 +1,14 @@
 import React from 'react';
 import MapContainer from '../Map';
+import Navbar from '../Navbar';
 
-
-import './styles.scss'
+import './styles.scss';
 
 function App() {
   return (
-    <div className="main-container">
+    <div className='main-container'>
       <MapContainer overlay={false} />
+      <Navbar />
     </div>
   );
 }

@@ -2,3 +2,55 @@
   width: 100vw;
   height: 100vh;
 }
+article {
+  position: relative;    
+  z-index: 20;
+  width: 100%;
+  height: 100%;
+  .title-and-photo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+      width: 80%;
+      color: white;
+      font-size: 75px;
+      font-weight: bolder;
+      margin-top: 20px;
+      border-bottom: 1px solid white;
+    }
+    img {
+      width: 80%;
+      object-fit: cover;
+      height: 170px;
+    }
+  }
+  .description {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    margin-top: 47px;
+    justify-content: space-between;
+  }
+  .inqui {
+    h2 {
+      color: white;
+      border-bottom: 1px solid white;
+    }
+    flex: 2;
+    color: white;
+  
+  }
+  .price-and-description {
+    flex: 1;
+    p {
+      color: white;
+      font-size: 55px;
+      font-weight: bold;
+      font-size: 45px;
+      font-weight: bold;
+      text-align: right;
+    }
+  }
+}

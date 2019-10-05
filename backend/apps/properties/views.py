@@ -9,7 +9,7 @@ from rest_framework.reverse import reverse
 
 from .models import Property
 from . import serializers
-# from . import filters as myfilters
+from . import filters as myfilters
 
 
 class PropertyViewSet(mixins.ListModelMixin,
@@ -19,3 +19,6 @@ class PropertyViewSet(mixins.ListModelMixin,
     queryset = Property.objects.all()
     # permission_classes = (IsAuthenticated,)
     serializer_class = serializers.PropertySerializer
+    filter_backends = (filters.SearchFilter, DjangoFilterBackend)
+    filterset_class = myfilters.PropertyFilter
+    search_fields = ('title', 'content',)

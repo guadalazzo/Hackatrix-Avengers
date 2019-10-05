@@ -1,12 +1,28 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
+import axios from "axios"
 
 import MapContainer from '../../components/Map';
 import Navbar from '../../components/Navbar';
 
 import './styles.scss';
 
-function Result() {
+function Result({match}) {
+  const [properties, setProperties ] = useState([])
 
+  const getProperties = () => {
+    axios.get(`http://26041c64.ngrok.io/api/properties/${match.params.id}/`)
+      .then(response => {
+        setProperties(response.data) 
+      })
+  }
+
+  useEffect(() => {
+    getProperties()
+  }, [])
+
+  console.log("properties 2",properties)
+
+  
   const place =  {
     id:1,
     latitude:-34.5786389,
@@ -27,8 +43,8 @@ function Result() {
       <MapContainer overlay={true} />
       <article>
       <div className="title-and-photo">
-        <h2>● {place.neighborhood}</h2>
-        <img src={place.image_url} alt="casa"/>
+        <h2>● {properties.neighborhood}</h2>
+        <img src={properties.image_url} alt="casa"/>
       </div>
       <div className="description">
       <div className="inqui">
@@ -52,7 +68,7 @@ function Result() {
         </div>
       </div>
       <div className="price-and-description">
-        <p> $ {place.price}</p>
+        <p> $ {properties.price}</p>
         <button>
           CONTACTATE
         </button>

@@ -35,6 +35,7 @@ const Container = styled.div`
 
       h2 {
         color: white;
+        margin: 0;
 
         font-size: 48px;
         letter-spacing: 3px;
@@ -44,6 +45,7 @@ const Container = styled.div`
     }
 
     .filters {
+      padding: 20px 0;
     }
   }
 `;

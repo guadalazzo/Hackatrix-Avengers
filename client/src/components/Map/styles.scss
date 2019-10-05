@@ -1,16 +1,16 @@
-.overlay{
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: 10;
-  background-color: rgba(0,0,0,0.5); /*dim the background*/
+  background-color: rgba(0, 0, 0, 0.5); /*dim the background*/
 }
 .marker-price {
   margin-top: 0;
   background: #fff;
-  color: #FF3100;
+  color: #ff3100;
   font-size: 12px;
   position: absolute;
   z-index: -1;

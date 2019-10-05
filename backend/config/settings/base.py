@@ -48,6 +48,7 @@ DATABASES = {
 }
 DATABASES["default"]["ATOMIC_REQUESTS"] = True
 
+ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1", "26041c64.ngrok.io"]
 # URLS
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#root-urlconf

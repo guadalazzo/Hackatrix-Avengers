@@ -69,6 +69,7 @@ DJANGO_APPS = [
     "django.contrib.admin",
 ]
 THIRD_PARTY_APPS = [
+    "django_filters",
     "crispy_forms",
     "allauth",
     "allauth.account",

@@ -2,15 +2,16 @@ import React, { useState } from 'react';
 
 import { Container, StyledSlider, StyledInputNumber } from './styled';
 
-const PriceSlider = () => {
-  const [minValue, setMinValue] = useState(0);
-  const [maxValue, setMaxValue] = useState(10000);
+const PriceSlider = ({ defaultMinValue, defaultMaxValue, onSetRange }) => {
+  const [minValue, setMinValue] = useState(defaultMinValue);
+  const [maxValue, setMaxValue] = useState(defaultMaxValue);
 
   const marks = [minValue, maxValue].reduce((acc, value) => ({ ...acc, [value]: `${value}$` }), {});
 
   const handleValueChange = ([minV, maxV]) => {
     setMinValue(minV);
     setMaxValue(maxV);
+    onSetRange([minV, maxV]);
   };
 
   const handleInputMinValue = value => {
@@ -31,7 +32,14 @@ const PriceSlider = () => {
         <StyledInputNumber value={maxValue} onChange={handleInputMaxValue} />
       </div>
 
-      <StyledSlider range marks={marks} defaultValue={[0, 9000]} onChange={handleValueChange}></StyledSlider>
+      <StyledSlider
+        range
+        marks={marks}
+        min={defaultMinValue}
+        max={defaultMaxValue}
+        defaultValue={[0, 9000]}
+        onChange={handleValueChange}
+      ></StyledSlider>
     </Container>
   );
 };

@@ -1,0 +1,172 @@
+[
+  {
+    "model":"properties.property",
+    "fields":{
+      "id":1,
+      "latitude":-34.5786389,
+      "longitude":-58.4214656,
+      "price":"39466.47",
+      "rooms":2,
+      "neighborhood":"Nuñez",
+      "rating":1,
+      "title":"Trailer Park Boys: The Movie",
+      "content":"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+      "roomates":true,
+      "guests":4,
+      "image_url":"https://www.listenmoneymatters.com/cdn-cgi/image/fit=cover,width=900,format=auto,quality=75/https://www.listenmoneymatters.com/wp-content/uploads/2018/04/LMM-Cover-Images-2.jpg"
+    }
+  },
+  {
+    "model":"properties.property",
+    "fields":{
+      "id":2,
+      "latitude":34.57401,
+      "longitude":-58.4241263,
+      "price":"31674.49",
+      "rooms":5,
+      "neighborhood":"Puerto madero",
+      "rating":5,
+      "title":"Iris",
+      "content":"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+      "roomates":false,
+      "guests":2,
+      "image_url":"https://www.listenmoneymatters.com/cdn-cgi/image/fit=cover,width=900,format=auto,quality=75/https://www.listenmoneymatters.com/wp-content/uploads/2018/04/LMM-Cover-Images-2.jpg"
+    }
+  },
+  {
+    "model":"properties.property",
+    "fields":{
+      "id":3,
+      "latitude":-34.5661615,
+      "longitude":-58.4321605,
+      "price":"23578.42",
+      "rooms":1,
+      "neighborhood":"Recoleta",
+      "rating":3,
+      "title":"Charlie Chan in Rio",
+      "content":"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.\n\nIn congue. Etiam justo. Etiam pretium iaculis justo.",
+      "roomates":false,
+      "guests":5,
+      "image_url":"https://www.listenmoneymatters.com/cdn-cgi/image/fit=cover,width=900,format=auto,quality=75/https://www.listenmoneymatters.com/wp-content/uploads/2018/04/LMM-Cover-Images-2.jpg"
+    }
+  },
+  {
+    "model":"properties.property",
+    "fields":{
+      "id":4,
+      "latitude":-34.5560875,
+      "longitude":-58.457523,
+      "price":"29072.25",
+      "rooms":2,
+      "neighborhood":"Saavedra",
+      "rating":2,
+      "title":"Eight Iron Men",
+      "content":"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+      "roomates":true,
+      "guests":3,
+      "image_url":"https://www.listenmoneymatters.com/cdn-cgi/image/fit=cover,width=900,format=auto,quality=75/https://www.listenmoneymatters.com/wp-content/uploads/2018/04/LMM-Cover-Images-2.jpg"
+    }
+  },
+  {
+    "model":"properties.property",
+    "fields":{
+      "id":5,
+      "latitude":-34.5521346,
+      "longitude":-58.4609874,
+      "price":"37660.66",
+      "rooms":1,
+      "neighborhood":"Nuñez",
+      "rating":3,
+      "title":"Ladies Man, The",
+      "content":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
+      "roomates":false,
+      "guests":1,
+      "image_url":"https://www.listenmoneymatters.com/cdn-cgi/image/fit=cover,width=900,format=auto,quality=75/https://www.listenmoneymatters.com/wp-content/uploads/2018/04/LMM-Cover-Images-2.jpg"
+    }
+  },
+  {
+    "model":"properties.property",
+    "fields":{
+      "id":6,
+      "latitude":-34.5521346,
+      "longitude":-58.4609874,
+      "price":"36816.59",
+      "rooms":3,
+      "neighborhood":"Nuñez",
+      "rating":3,
+      "title":"Lawless",
+      "content":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+      "roomates":false,
+      "guests":1,
+      "image_url":"https://www.listenmoneymatters.com/cdn-cgi/image/fit=cover,width=900,format=auto,quality=75/https://www.listenmoneymatters.com/wp-content/uploads/2018/04/LMM-Cover-Images-2.jpg"
+    }
+  },
+  {
+    "model":"properties.property",
+    "fields":{
+      "id":7,
+      "latitude":-34.560278,
+      "longitude":-58.4584973,
+      "price":"36126.98",
+      "rooms":5,
+      "neighborhood":"Nuñez",
+      "rating":3,
+      "title":"Home and the World, The (Ghare-Baire)",
+      "content":"In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+      "roomates":true,
+      "guests":2,
+      "image_url":"https://www.listenmoneymatters.com/cdn-cgi/image/fit=cover,width=900,format=auto,quality=75/https://www.listenmoneymatters.com/wp-content/uploads/2018/04/LMM-Cover-Images-2.jpg"
+    }
+  },
+  {
+    "model":"properties.property",
+    "fields":{
+      "id":8,
+      "latitude":-34.5580193,
+      "longitude":-58.4592552,
+      "price":"20637.28",
+      "rooms":3,
+      "neighborhood":"Belgrano",
+      "rating":2,
+      "title":"Josh and S.A.M.",
+      "content":"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+      "roomates":false,
+      "guests":4,
+      "image_url":"https://www.listenmoneymatters.com/cdn-cgi/image/fit=cover,width=900,format=auto,quality=75/https://www.listenmoneymatters.com/wp-content/uploads/2018/04/LMM-Cover-Images-2.jpg"
+    }
+  },
+  {
+    "model":"properties.property",
+    "fields":{
+      "id":9,
+      "latitude":-34.5641771,
+      "longitude":-58.4719048,
+      "price":"28149.81",
+      "rooms":1,
+      "neighborhood":"Villa Urquiza",
+      "rating":1,
+      "title":"Red Dog",
+      "content":"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+      "roomates":true,
+      "guests":2,
+      "image_url":"https://www.listenmoneymatters.com/cdn-cgi/image/fit=cover,width=900,format=auto,quality=75/https://www.listenmoneymatters.com/wp-content/uploads/2018/04/LMM-Cover-Images-2.jpg"
+    }
+  },
+  {
+    "model":"properties.property",
+    "fields":{
+      "id":10,
+      "latitude":-34.5565988,
+      "longitude":-58.4594907,
+      "price":"25779.42",
+      "rooms":2,
+      "neighborhood":"Belgrano",
+      "rating":5,
+      "title":"Good Vibrations",
+      "content":"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n\nCurabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+      "roomates":false,
+      "guests":2,
+      "image_url":"https://www.listenmoneymatters.com/cdn-cgi/image/fit=cover,width=900,format=auto,quality=75/https://www.listenmoneymatters.com/wp-content/uploads/2018/04/LMM-Cover-Images-2.jpg"
+    }
+  }
+]

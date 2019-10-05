@@ -34,5 +34,21 @@
   }
 
   .search button{
-      background-color: #FF3100;
+    background-color: #FF3100;
+    width: 100px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 35px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .search .mark{
+      height: 20px;
+  }
+
+  .search .mark:hover{
+      fill: white;
   }

@@ -1,0 +1,390 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	../backend/apps/contrib/sites/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	../backend/apps/properties/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	../backend/apps/users/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_alter_domain_unique.py	../backend/apps/contrib/sites/migrations/0002_alter_domain_unique.py	1;"	kind:file	line:1
+0002_auto_20191005_1710.py	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	1;"	kind:file	line:1
+0003_set_site_domain_and_name.py	../backend/apps/contrib/sites/migrations/0003_set_site_domain_and_name.py	1;"	kind:file	line:1
+ACCOUNT_ADAPTER	../backend/config/settings/base.py	/^ACCOUNT_ADAPTER = "apps.users.adapters.AccountAdapter"$/;"	kind:variable	line:289
+ACCOUNT_ALLOW_REGISTRATION	../backend/config/settings/base.py	/^ACCOUNT_ALLOW_REGISTRATION = env.bool("DJANGO_ACCOUNT_ALLOW_REGISTRATION", True)$/;"	kind:variable	line:281
+ACCOUNT_AUTHENTICATION_METHOD	../backend/config/settings/base.py	/^ACCOUNT_AUTHENTICATION_METHOD = "username"$/;"	kind:variable	line:283
+ACCOUNT_EMAIL_REQUIRED	../backend/config/settings/base.py	/^ACCOUNT_EMAIL_REQUIRED = True$/;"	kind:variable	line:285
+ACCOUNT_EMAIL_VERIFICATION	../backend/config/settings/base.py	/^ACCOUNT_EMAIL_VERIFICATION = "mandatory"$/;"	kind:variable	line:287
+ADMIN_URL	../backend/config/settings/base.py	/^ADMIN_URL = "admin\/"$/;"	kind:variable	line:226
+ADMIN_URL	../backend/config/settings/production.py	/^ADMIN_URL = env("DJANGO_ADMIN_URL")$/;"	kind:variable	line:92
+ALLOWED_HOSTS	../backend/config/settings/local.py	/^ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1"]$/;"	kind:variable	line:14
+ALLOWED_HOSTS	../backend/config/settings/production.py	/^ALLOWED_HOSTS = env.list("DJANGO_ALLOWED_HOSTS", default=["example.com"])$/;"	kind:variable	line:9
+ANYMAIL	../backend/config/settings/production.py	/^ANYMAIL = {$/;"	kind:variable	line:100
+APPS_DIR	../backend/config/settings/base.py	/^APPS_DIR = ROOT_DIR.path("apps")$/;"	kind:variable	line:9
+AUTHENTICATION_BACKENDS	../backend/config/settings/base.py	/^AUTHENTICATION_BACKENDS = [$/;"	kind:variable	line:95
+AUTH_PASSWORD_VALIDATORS	../backend/config/settings/base.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:117
+AUTH_USER_MODEL	../backend/config/settings/base.py	/^AUTH_USER_MODEL = "users.User"$/;"	kind:variable	line:100
+AccountAdapter	../backend/apps/users/adapters.py	/^class AccountAdapter(DefaultAccountAdapter):$/;"	kind:class	line:9
+CACHES	../backend/config/settings/local.py	/^CACHES = {$/;"	kind:variable	line:19
+CACHES	../backend/config/settings/production.py	/^CACHES = {$/;"	kind:variable	line:19
+CACHES	../backend/config/settings/test.py	/^CACHES = {$/;"	kind:variable	line:21
+CELERY_ACCEPT_CONTENT	../backend/config/settings/base.py	/^CELERY_ACCEPT_CONTENT = ["json"]$/;"	kind:variable	line:266
+CELERY_BEAT_SCHEDULER	../backend/config/settings/base.py	/^CELERY_BEAT_SCHEDULER = "django_celery_beat.schedulers:DatabaseScheduler"$/;"	kind:variable	line:278
+CELERY_BROKER_URL	../backend/config/settings/base.py	/^CELERY_BROKER_URL = env('CELERY_BROKER_URL', default='redis:\/\/')$/;"	kind:variable	line:262
+CELERY_RESULT_BACKEND	../backend/config/settings/base.py	/^CELERY_RESULT_BACKEND = CELERY_BROKER_URL$/;"	kind:variable	line:264
+CELERY_RESULT_SERIALIZER	../backend/config/settings/base.py	/^CELERY_RESULT_SERIALIZER = "json"$/;"	kind:variable	line:270
+CELERY_TASK_ALWAYS_EAGER	../backend/config/settings/local.py	/^CELERY_TASK_ALWAYS_EAGER = True$/;"	kind:variable	line:55
+CELERY_TASK_EAGER_PROPAGATES	../backend/config/settings/local.py	/^CELERY_TASK_EAGER_PROPAGATES = True$/;"	kind:variable	line:57
+CELERY_TASK_SERIALIZER	../backend/config/settings/base.py	/^CELERY_TASK_SERIALIZER = "json"$/;"	kind:variable	line:268
+CELERY_TASK_SOFT_TIME_LIMIT	../backend/config/settings/base.py	/^CELERY_TASK_SOFT_TIME_LIMIT = 60$/;"	kind:variable	line:276
+CELERY_TASK_TIME_LIMIT	../backend/config/settings/base.py	/^CELERY_TASK_TIME_LIMIT = 5 * 60$/;"	kind:variable	line:273
+CELERY_TIMEZONE	../backend/config/settings/base.py	/^    CELERY_TIMEZONE = TIME_ZONE$/;"	kind:variable	line:260
+CRISPY_TEMPLATE_PACK	../backend/config/settings/base.py	/^CRISPY_TEMPLATE_PACK = "bootstrap4"$/;"	kind:variable	line:196
+CSRF_COOKIE_HTTPONLY	../backend/config/settings/base.py	/^CSRF_COOKIE_HTTPONLY = True$/;"	kind:variable	line:208
+CSRF_COOKIE_SECURE	../backend/config/settings/production.py	/^CSRF_COOKIE_SECURE = True$/;"	kind:variable	line:41
+DATABASES	../backend/config/settings/base.py	/^DATABASES = {$/;"	kind:variable	line:46
+DEBUG	../backend/config/settings/base.py	/^DEBUG = env.bool("DJANGO_DEBUG", False)$/;"	kind:variable	line:23
+DEBUG	../backend/config/settings/local.py	/^DEBUG = True$/;"	kind:variable	line:7
+DEBUG_TOOLBAR_CONFIG	../backend/config/settings/local.py	/^DEBUG_TOOLBAR_CONFIG = {$/;"	kind:variable	line:40
+DEFAULT_FROM_EMAIL	../backend/config/settings/production.py	/^DEFAULT_FROM_EMAIL = env($/;"	kind:variable	line:79
+DJANGO_APPS	../backend/config/settings/base.py	/^DJANGO_APPS = [$/;"	kind:variable	line:60
+EMAIL_BACKEND	../backend/config/settings/base.py	/^EMAIL_BACKEND = env($/;"	kind:variable	line:217
+EMAIL_BACKEND	../backend/config/settings/local.py	/^EMAIL_BACKEND = env($/;"	kind:variable	line:29
+EMAIL_BACKEND	../backend/config/settings/production.py	/^EMAIL_BACKEND = "anymail.backends.mailgun.EmailBackend"$/;"	kind:variable	line:98
+EMAIL_BACKEND	../backend/config/settings/test.py	/^EMAIL_BACKEND = "django.core.mail.backends.locmem.EmailBackend"$/;"	kind:variable	line:48
+EMAIL_SUBJECT_PREFIX	../backend/config/settings/production.py	/^EMAIL_SUBJECT_PREFIX = env($/;"	kind:variable	line:85
+EMAIL_TIMEOUT	../backend/config/settings/base.py	/^EMAIL_TIMEOUT = 5$/;"	kind:variable	line:221
+FIXTURE_DIRS	../backend/config/settings/base.py	/^FIXTURE_DIRS = (str(APPS_DIR.path("fixtures")),)$/;"	kind:variable	line:201
+FRONTEND_ROOT	../backend/config/settings/base.py	/^FRONTEND_ROOT = REPO_DIR.path('client', required=True)$/;"	kind:variable	line:10
+INSTALLED_APPS	../backend/config/settings/base.py	/^INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS$/;"	kind:variable	line:85
+INTERNAL_IPS	../backend/config/settings/local.py	/^INTERNAL_IPS = ["127.0.0.1", "10.0.2.2"]$/;"	kind:variable	line:45
+LANGUAGE_CODE	../backend/config/settings/base.py	/^LANGUAGE_CODE = "en-us"$/;"	kind:variable	line:30
+LOCALE_PATHS	../backend/config/settings/base.py	/^LOCALE_PATHS = [ROOT_DIR.path("locale")]$/;"	kind:variable	line:40
+LOCAL_APPS	../backend/config/settings/base.py	/^LOCAL_APPS = [$/;"	kind:variable	line:79
+LOGGING	../backend/config/settings/base.py	/^LOGGING = {$/;"	kind:variable	line:237
+LOGGING	../backend/config/settings/production.py	/^LOGGING = {$/;"	kind:variable	line:120
+LOGIN_REDIRECT_URL	../backend/config/settings/base.py	/^LOGIN_REDIRECT_URL = "users:redirect"$/;"	kind:variable	line:102
+LOGIN_URL	../backend/config/settings/base.py	/^LOGIN_URL = "account_login"$/;"	kind:variable	line:104
+MANAGERS	../backend/config/settings/base.py	/^MANAGERS = ADMINS$/;"	kind:variable	line:230
+MEDIA_ROOT	../backend/config/settings/base.py	/^MEDIA_ROOT = str(APPS_DIR("media"))$/;"	kind:variable	line:160
+MEDIA_URL	../backend/config/settings/base.py	/^MEDIA_URL = "\/media\/"$/;"	kind:variable	line:162
+MIDDLEWARE	../backend/config/settings/base.py	/^MIDDLEWARE = [$/;"	kind:variable	line:129
+MIGRATION_MODULES	../backend/config/settings/base.py	/^MIGRATION_MODULES = {"sites": "apps.contrib.sites.migrations"}$/;"	kind:variable	line:90
+Meta	../backend/apps/properties/serializers.py	/^    class Meta:$/;"	kind:class	line:10
+Meta	../backend/apps/users/forms.py	/^    class Meta(forms.UserChangeForm.Meta):$/;"	kind:class	line:9
+Meta	../backend/apps/users/forms.py	/^    class Meta(forms.UserCreationForm.Meta):$/;"	kind:class	line:19
+Meta	../backend/apps/users/tests/factories.py	/^    class Meta:$/;"	kind:class	line:25
+Migration	../backend/apps/contrib/sites/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../backend/apps/contrib/sites/migrations/0002_alter_domain_unique.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:5
+Migration	../backend/apps/contrib/sites/migrations/0003_set_site_domain_and_name.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:30
+Migration	../backend/apps/properties/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../backend/apps/users/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:7
+PASSWORD_HASHERS	../backend/config/settings/base.py	/^PASSWORD_HASHERS = [$/;"	kind:variable	line:109
+PASSWORD_HASHERS	../backend/config/settings/test.py	/^PASSWORD_HASHERS = ["django.contrib.auth.hashers.MD5PasswordHasher"]$/;"	kind:variable	line:31
+PUBLIC_ASSETS_ROOT	../backend/config/settings/base.py	/^PUBLIC_ASSETS_ROOT = FRONTEND_ROOT.path('public', required=True)$/;"	kind:variable	line:11
+PropertiesConfig	../backend/apps/properties/apps.py	/^class PropertiesConfig(AppConfig):$/;"	kind:class	line:4
+Property	../backend/apps/properties/models.py	/^class Property(TimeStampedModel):$/;"	kind:class	line:9
+PropertySerializer	../backend/apps/properties/serializers.py	/^class PropertySerializer(serializers.ModelSerializer):$/;"	kind:class	line:8
+PropertyViewSet	../backend/apps/properties/views.py	/^                      viewsets.GenericViewSet):$/;"	kind:class	line:17
+READ_DOT_ENV_FILE	../backend/config/settings/base.py	/^READ_DOT_ENV_FILE = env.bool("DJANGO_READ_DOT_ENV_FILE", default=False)$/;"	kind:variable	line:15
+REPO_DIR	../backend/config/settings/base.py	/^REPO_DIR = environ.Path(__file__) - 4  # \/ One level up from the backend folder$/;"	kind:variable	line:7
+REST_FRAMEWORK	../backend/config/settings/base.py	/^REST_FRAMEWORK = {$/;"	kind:variable	line:296
+ROOT_DIR	../backend/config/settings/base.py	/^ROOT_DIR = environ.Path(__file__) - 3  # \/backend\/config\/settings\/base.py - 3 = backend\/)$/;"	kind:variable	line:8
+ROOT_URLCONF	../backend/config/settings/base.py	/^ROOT_URLCONF = "config.urls"$/;"	kind:variable	line:54
+SECRET_KEY	../backend/config/settings/local.py	/^SECRET_KEY = env($/;"	kind:variable	line:9
+SECRET_KEY	../backend/config/settings/production.py	/^SECRET_KEY = env("DJANGO_SECRET_KEY")$/;"	kind:variable	line:7
+SECRET_KEY	../backend/config/settings/test.py	/^SECRET_KEY = env($/;"	kind:variable	line:11
+SECURE_BROWSER_XSS_FILTER	../backend/config/settings/base.py	/^SECURE_BROWSER_XSS_FILTER = True$/;"	kind:variable	line:210
+SECURE_CONTENT_TYPE_NOSNIFF	../backend/config/settings/production.py	/^SECURE_CONTENT_TYPE_NOSNIFF = env.bool($/;"	kind:variable	line:53
+SECURE_HSTS_INCLUDE_SUBDOMAINS	../backend/config/settings/production.py	/^SECURE_HSTS_INCLUDE_SUBDOMAINS = env.bool($/;"	kind:variable	line:47
+SECURE_HSTS_PRELOAD	../backend/config/settings/production.py	/^SECURE_HSTS_PRELOAD = env.bool("DJANGO_SECURE_HSTS_PRELOAD", default=True)$/;"	kind:variable	line:51
+SECURE_HSTS_SECONDS	../backend/config/settings/production.py	/^SECURE_HSTS_SECONDS = 60$/;"	kind:variable	line:45
+SECURE_PROXY_SSL_HEADER	../backend/config/settings/production.py	/^SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")$/;"	kind:variable	line:35
+SECURE_SSL_REDIRECT	../backend/config/settings/production.py	/^SECURE_SSL_REDIRECT = env.bool("DJANGO_SECURE_SSL_REDIRECT", default=True)$/;"	kind:variable	line:37
+SERVER_EMAIL	../backend/config/settings/production.py	/^SERVER_EMAIL = env("DJANGO_SERVER_EMAIL", default=DEFAULT_FROM_EMAIL)$/;"	kind:variable	line:83
+SESSION_COOKIE_HTTPONLY	../backend/config/settings/base.py	/^SESSION_COOKIE_HTTPONLY = True$/;"	kind:variable	line:206
+SESSION_COOKIE_SECURE	../backend/config/settings/production.py	/^SESSION_COOKIE_SECURE = True$/;"	kind:variable	line:39
+SITE_ID	../backend/config/settings/base.py	/^SITE_ID = 1$/;"	kind:variable	line:32
+SOCIALACCOUNT_ADAPTER	../backend/config/settings/base.py	/^SOCIALACCOUNT_ADAPTER = "apps.users.adapters.SocialAccountAdapter"$/;"	kind:variable	line:291
+STATICFILES_DIRS	../backend/config/settings/base.py	/^STATICFILES_DIRS = [$/;"	kind:variable	line:147
+STATICFILES_FINDERS	../backend/config/settings/base.py	/^STATICFILES_FINDERS = [$/;"	kind:variable	line:152
+STATICFILES_STORAGE	../backend/config/settings/production.py	/^STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"$/;"	kind:variable	line:59
+STATIC_ROOT	../backend/config/settings/base.py	/^STATIC_ROOT = str(ROOT_DIR("staticfiles"))$/;"	kind:variable	line:143
+STATIC_URL	../backend/config/settings/base.py	/^STATIC_URL = "\/static\/"$/;"	kind:variable	line:145
+STATUS	../backend/apps/properties/models.py	/^    STATUS = Choices($/;"	kind:variable	line:12
+SocialAccountAdapter	../backend/apps/users/adapters.py	/^class SocialAccountAdapter(DefaultSocialAccountAdapter):$/;"	kind:class	line:14
+TEMPLATES	../backend/config/settings/base.py	/^TEMPLATES = [$/;"	kind:variable	line:167
+TEST_RUNNER	../backend/config/settings/test.py	/^TEST_RUNNER = "django.test.runner.DiscoverRunner"$/;"	kind:variable	line:16
+THIRD_PARTY_APPS	../backend/config/settings/base.py	/^THIRD_PARTY_APPS = [$/;"	kind:variable	line:70
+TIME_ZONE	../backend/config/settings/base.py	/^TIME_ZONE = "UTC"$/;"	kind:variable	line:28
+TestUserCreationForm	../backend/apps/users/tests/test_forms.py	/^class TestUserCreationForm:$/;"	kind:class	line:9
+TestUserRedirectView	../backend/apps/users/tests/test_views.py	/^class TestUserRedirectView:$/;"	kind:class	line:42
+TestUserUpdateView	../backend/apps/users/tests/test_views.py	/^class TestUserUpdateView:$/;"	kind:class	line:10
+USE_I18N	../backend/config/settings/base.py	/^USE_I18N = True$/;"	kind:variable	line:34
+USE_L10N	../backend/config/settings/base.py	/^USE_L10N = True$/;"	kind:variable	line:36
+USE_TZ	../backend/config/settings/base.py	/^USE_TZ = True$/;"	kind:variable	line:38
+User	../backend/apps/users/admin.py	/^User = get_user_model()$/;"	kind:variable	line:7
+User	../backend/apps/users/forms.py	/^User = get_user_model()$/;"	kind:variable	line:5
+User	../backend/apps/users/models.py	/^class User(AbstractUser):$/;"	kind:class	line:7
+User	../backend/apps/users/tasks.py	/^User = get_user_model()$/;"	kind:variable	line:5
+User	../backend/apps/users/views.py	/^User = get_user_model()$/;"	kind:variable	line:8
+UserAdmin	../backend/apps/users/admin.py	/^class UserAdmin(auth_admin.UserAdmin):$/;"	kind:class	line:11
+UserChangeForm	../backend/apps/users/forms.py	/^class UserChangeForm(forms.UserChangeForm):$/;"	kind:class	line:8
+UserCreationForm	../backend/apps/users/forms.py	/^class UserCreationForm(forms.UserCreationForm):$/;"	kind:class	line:13
+UserDetailView	../backend/apps/users/views.py	/^class UserDetailView(LoginRequiredMixin, DetailView):$/;"	kind:class	line:11
+UserFactory	../backend/apps/users/tests/factories.py	/^class UserFactory(DjangoModelFactory):$/;"	kind:class	line:7
+UserRedirectView	../backend/apps/users/views.py	/^class UserRedirectView(LoginRequiredMixin, RedirectView):$/;"	kind:class	line:42
+UserUpdateView	../backend/apps/users/views.py	/^class UserUpdateView(LoginRequiredMixin, UpdateView):$/;"	kind:class	line:21
+UsersConfig	../backend/apps/users/apps.py	/^class UsersConfig(AppConfig):$/;"	kind:class	line:5
+WSGI_APPLICATION	../backend/config/settings/base.py	/^WSGI_APPLICATION = "config.wsgi.application"$/;"	kind:variable	line:56
+X_FRAME_OPTIONS	../backend/config/settings/base.py	/^X_FRAME_OPTIONS = "DENY"$/;"	kind:variable	line:212
+__all__	../backend/config/__init__.py	/^__all__ = ("celery_app",)$/;"	kind:variable	line:5
+__init__.py	../backend/apps/__init__.py	1;"	kind:file	line:1
+__init__.py	../backend/apps/contrib/__init__.py	1;"	kind:file	line:1
+__init__.py	../backend/apps/contrib/sites/__init__.py	1;"	kind:file	line:1
+__init__.py	../backend/apps/contrib/sites/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../backend/apps/properties/__init__.py	1;"	kind:file	line:1
+__init__.py	../backend/apps/properties/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../backend/apps/users/__init__.py	1;"	kind:file	line:1
+__init__.py	../backend/apps/users/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../backend/apps/users/tests/__init__.py	1;"	kind:file	line:1
+__init__.py	../backend/apps/utils/__init__.py	1;"	kind:file	line:1
+__init__.py	../backend/config/__init__.py	1;"	kind:file	line:1
+__init__.py	../backend/config/settings/__init__.py	1;"	kind:file	line:1
+__init__.py	../backend/docs/__init__.py	1;"	kind:file	line:1
+__version__	../backend/apps/__init__.py	/^__version__ = "0.1.0"$/;"	kind:variable	line:1
+__version_info__	../backend/apps/__init__.py	/^__version_info__ = tuple($/;"	kind:variable	line:2
+adapters.py	../backend/apps/users/adapters.py	1;"	kind:file	line:1
+add_form	../backend/apps/users/admin.py	/^    add_form = UserCreationForm$/;"	kind:variable	line:14
+admin.py	../backend/apps/properties/admin.py	1;"	kind:file	line:1
+admin.py	../backend/apps/users/admin.py	1;"	kind:file	line:1
+app	../backend/config/celery_app.py	/^app = Celery("referred_rentals")$/;"	kind:variable	line:7
+app_name	../backend/apps/users/urls.py	/^app_name = "users"$/;"	kind:variable	line:9
+app_path	../backend/config/wsgi.py	/^app_path = os.path.abspath($/;"	kind:variable	line:23
+application	../backend/config/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:36
+apps.py	../backend/apps/properties/apps.py	1;"	kind:file	line:1
+apps.py	../backend/apps/users/apps.py	1;"	kind:file	line:1
+auto_created	../backend/apps/contrib/sites/migrations/0001_initial.py	/^                        auto_created=True,$/;"	kind:variable	line:19
+auto_created	../backend/apps/users/migrations/0001_initial.py	/^                        auto_created=True,$/;"	kind:variable	line:20
+base.py	../backend/config/settings/base.py	1;"	kind:file	line:1
+bases	../backend/apps/contrib/sites/migrations/0001_initial.py	/^            bases=(models.Model,),$/;"	kind:variable	line:39
+blank	../backend/apps/users/migrations/0001_initial.py	/^                        blank=True,$/;"	kind:variable	line:105
+blank	../backend/apps/users/migrations/0001_initial.py	/^                        blank=True,$/;"	kind:variable	line:116
+celery_app.py	../backend/config/celery_app.py	1;"	kind:file	line:1
+clean_username	../backend/apps/users/forms.py	/^    def clean_username(self):$/;"	kind:member	line:22
+conf.py	../backend/docs/conf.py	1;"	kind:file	line:1
+conftest.py	../backend/apps/conftest.py	1;"	kind:file	line:1
+content	../backend/apps/properties/models.py	/^    content = models.TextField(_('Content\/body'), max_length=3000)$/;"	kind:variable	line:27
+context_processors.py	../backend/apps/utils/context_processors.py	1;"	kind:file	line:1
+current_path	../backend/manage.py	/^    current_path = os.path.dirname(os.path.abspath(__file__))$/;"	kind:variable	line:27
+default	../backend/apps/users/migrations/0001_initial.py	/^                        default=False,$/;"	kind:variable	line:36
+default	../backend/apps/users/migrations/0001_initial.py	/^                        default=False,$/;"	kind:variable	line:77
+default	../backend/apps/users/migrations/0001_initial.py	/^                        default=True,$/;"	kind:variable	line:85
+default	../backend/config/settings/local.py	/^    default="by1NAploSX2EXEJpp2h44STuZXFB3lAGifAmz6IErEijYwqXnI7DpMuUkwecDkRB",$/;"	kind:variable	line:11
+default	../backend/config/settings/test.py	/^    default="cGXyDoWRalOy80TRK73RUaIrK0ydI3pQPM1wxNBXOWGXToWVLOv8TEXq8LCvCBgU",$/;"	kind:variable	line:13
+dependencies	../backend/apps/contrib/sites/migrations/0001_initial.py	/^    dependencies = []$/;"	kind:variable	line:8
+dependencies	../backend/apps/contrib/sites/migrations/0002_alter_domain_unique.py	/^    dependencies = [("sites", "0001_initial")]$/;"	kind:variable	line:7
+dependencies	../backend/apps/contrib/sites/migrations/0003_set_site_domain_and_name.py	/^    dependencies = [("sites", "0002_alter_domain_unique")]$/;"	kind:variable	line:32
+dependencies	../backend/apps/properties/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:13
+dependencies	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^    dependencies = [$/;"	kind:variable	line:8
+dependencies	../backend/apps/users/migrations/0001_initial.py	/^    dependencies = [("auth", "0008_alter_user_username_max_length")]$/;"	kind:variable	line:11
+django_get_or_create	../backend/apps/users/tests/factories.py	/^        django_get_or_create = ["username"]$/;"	kind:variable	line:27
+email	../backend/apps/users/tests/factories.py	/^    email = Faker("email")$/;"	kind:variable	line:10
+env	../backend/config/settings/base.py	/^env = environ.Env()$/;"	kind:variable	line:13
+error_message	../backend/apps/users/forms.py	/^    error_message = forms.UserCreationForm.error_messages.update($/;"	kind:variable	line:15
+error_messages	../backend/apps/users/migrations/0001_initial.py	/^                        error_messages={$/;"	kind:variable	line:44
+exclude_patterns	../backend/docs/conf.py	/^exclude_patterns = ["_build"]$/;"	kind:variable	line:66
+extensions	../backend/docs/conf.py	/^extensions = []$/;"	kind:variable	line:27
+factories.py	../backend/apps/users/tests/factories.py	1;"	kind:file	line:1
+field	../backend/apps/contrib/sites/migrations/0002_alter_domain_unique.py	/^            field=models.CharField($/;"	kind:variable	line:13
+field	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            field=models.BooleanField(blank=True, null=True, verbose_name='Roomates'),$/;"	kind:variable	line:47
+field	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            field=models.CharField(blank=True, max_length=100, verbose_name='Neighborhood'),$/;"	kind:variable	line:31
+field	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            field=models.DecimalField(blank=True, decimal_places=6, max_digits=9, null=True, verbose_name='Latitude'),$/;"	kind:variable	line:21
+field	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            field=models.DecimalField(blank=True, decimal_places=6, max_digits=9, null=True, verbose_name='Longitude'),$/;"	kind:variable	line:26
+field	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            field=models.DecimalField(decimal_places=2, default=0, max_digits=9, verbose_name='Price'),$/;"	kind:variable	line:36
+field	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            field=models.IntegerField(blank=True, null=True, verbose_name='Guests'),$/;"	kind:variable	line:16
+field	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            field=models.IntegerField(blank=True, null=True, verbose_name='Rating'),$/;"	kind:variable	line:42
+field	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            field=models.IntegerField(default=1, verbose_name='Rooms'),$/;"	kind:variable	line:52
+fields	../backend/apps/contrib/sites/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:13
+fields	../backend/apps/properties/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:19
+fields	../backend/apps/properties/serializers.py	/^        fields = ($/;"	kind:variable	line:12
+fields	../backend/apps/users/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:16
+fields	../backend/apps/users/views.py	/^    fields = ["name"]$/;"	kind:variable	line:24
+fieldsets	../backend/apps/users/admin.py	/^    fieldsets = (("User", {"fields": ("name",)}),) + auth_admin.UserAdmin.fieldsets$/;"	kind:variable	line:15
+form	../backend/apps/users/admin.py	/^    form = UserChangeForm$/;"	kind:variable	line:13
+form_valid	../backend/apps/users/views.py	/^    def form_valid(self, form):$/;"	kind:member	line:32
+forms.py	../backend/apps/users/forms.py	1;"	kind:file	line:1
+get_absolute_url	../backend/apps/users/models.py	/^    def get_absolute_url(self):$/;"	kind:member	line:13
+get_object	../backend/apps/users/views.py	/^    def get_object(self):$/;"	kind:member	line:29
+get_redirect_url	../backend/apps/users/views.py	/^    def get_redirect_url(self):$/;"	kind:member	line:46
+get_success_url	../backend/apps/users/views.py	/^    def get_success_url(self):$/;"	kind:member	line:26
+get_users_count	../backend/apps/users/tasks.py	/^def get_users_count():$/;"	kind:function	line:9
+guests	../backend/apps/properties/models.py	/^    guests = models.IntegerField(_('Guests'), null=True, blank=True)$/;"	kind:variable	line:23
+help_text	../backend/apps/users/migrations/0001_initial.py	/^                        help_text="Designates that this user has all permissions without explicitly assigning them.",$/;"	kind:variable	line:37
+help_text	../backend/apps/users/migrations/0001_initial.py	/^                        help_text="Designates whether the user can log into this admin site.",$/;"	kind:variable	line:78
+help_text	../backend/apps/users/migrations/0001_initial.py	/^                        help_text="Designates whether this user should be treated as active. Unselect this instead of deleting accounts.",$/;"	kind:variable	line:86
+help_text	../backend/apps/users/migrations/0001_initial.py	/^                        help_text="Required. 150 characters or fewer. Letters, digits and @\/.\/+\/-\/_ only.",$/;"	kind:variable	line:47
+help_text	../backend/apps/users/migrations/0001_initial.py	/^                        help_text="Specific permissions for this user.",$/;"	kind:variable	line:117
+help_text	../backend/apps/users/migrations/0001_initial.py	/^                        help_text="The groups this user belongs to. A user will get all permissions granted to each of their groups.",$/;"	kind:variable	line:106
+html_static_path	../backend/docs/conf.py	/^html_static_path = ["_static"]$/;"	kind:variable	line:122
+html_theme	../backend/docs/conf.py	/^html_theme = "default"$/;"	kind:variable	line:93
+htmlhelp_basename	../backend/docs/conf.py	/^htmlhelp_basename = "referred_rentalsdoc"$/;"	kind:variable	line:166
+initial	../backend/apps/properties/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:11
+initial	../backend/apps/users/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:9
+is_open_for_signup	../backend/apps/users/adapters.py	/^    def is_open_for_signup(self, request: HttpRequest):$/;"	kind:member	line:10
+is_open_for_signup	../backend/apps/users/adapters.py	/^    def is_open_for_signup(self, request: HttpRequest, sociallogin: Any):$/;"	kind:member	line:15
+kwargs	../backend/config/urls.py	/^            kwargs={"exception": Exception("Bad Request!")},$/;"	kind:variable	line:28
+kwargs	../backend/config/urls.py	/^            kwargs={"exception": Exception("Page not Found")},$/;"	kind:variable	line:36
+kwargs	../backend/config/urls.py	/^            kwargs={"exception": Exception("Permission Denied")},$/;"	kind:variable	line:32
+latex_documents	../backend/docs/conf.py	/^latex_documents = [$/;"	kind:variable	line:182
+latex_elements	../backend/docs/conf.py	/^latex_elements = {$/;"	kind:variable	line:171
+latitude	../backend/apps/properties/models.py	/^    latitude = models.DecimalField(_('Latitude'), max_digits=9, decimal_places=6, null=True, blank=True)$/;"	kind:variable	line:24
+list_display	../backend/apps/users/admin.py	/^    list_display = ["username", "name", "is_superuser"]$/;"	kind:variable	line:16
+local.py	../backend/config/settings/local.py	1;"	kind:file	line:1
+longitude	../backend/apps/properties/models.py	/^    longitude = models.DecimalField(_('Longitude'), max_digits=9, decimal_places=6, null=True, blank=True)$/;"	kind:variable	line:25
+man_pages	../backend/docs/conf.py	/^man_pages = [$/;"	kind:variable	line:217
+manage.py	../backend/manage.py	1;"	kind:file	line:1
+managers	../backend/apps/contrib/sites/migrations/0001_initial.py	/^            managers=[("objects", django.contrib.sites.models.SiteManager())],$/;"	kind:variable	line:40
+managers	../backend/apps/users/migrations/0001_initial.py	/^            managers=[("objects", django.contrib.auth.models.UserManager())],$/;"	kind:variable	line:130
+master_doc	../backend/docs/conf.py	/^master_doc = "index"$/;"	kind:variable	line:39
+max_length	../backend/apps/contrib/sites/migrations/0001_initial.py	/^                        max_length=100,$/;"	kind:variable	line:26
+max_length	../backend/apps/contrib/sites/migrations/0002_alter_domain_unique.py	/^                max_length=100,$/;"	kind:variable	line:14
+max_length	../backend/apps/users/migrations/0001_initial.py	/^                        max_length=150,$/;"	kind:variable	line:48
+media_storage	../backend/apps/conftest.py	/^def media_storage(settings, tmpdir):$/;"	kind:function	line:9
+model	../backend/apps/properties/serializers.py	/^        model = Property$/;"	kind:variable	line:11
+model	../backend/apps/properties/views.py	/^    model = Property$/;"	kind:variable	line:18
+model	../backend/apps/users/forms.py	/^        model = User$/;"	kind:variable	line:10
+model	../backend/apps/users/forms.py	/^        model = User$/;"	kind:variable	line:20
+model	../backend/apps/users/tests/factories.py	/^        model = get_user_model()$/;"	kind:variable	line:26
+model	../backend/apps/users/views.py	/^    model = User$/;"	kind:variable	line:13
+model	../backend/apps/users/views.py	/^    model = User$/;"	kind:variable	line:23
+model_name	../backend/apps/contrib/sites/migrations/0002_alter_domain_unique.py	/^            model_name="site",$/;"	kind:variable	line:11
+model_name	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            model_name='property',$/;"	kind:variable	line:14
+model_name	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            model_name='property',$/;"	kind:variable	line:19
+model_name	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            model_name='property',$/;"	kind:variable	line:24
+model_name	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            model_name='property',$/;"	kind:variable	line:29
+model_name	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            model_name='property',$/;"	kind:variable	line:34
+model_name	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            model_name='property',$/;"	kind:variable	line:40
+model_name	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            model_name='property',$/;"	kind:variable	line:45
+model_name	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            model_name='property',$/;"	kind:variable	line:50
+models.py	../backend/apps/properties/models.py	1;"	kind:file	line:1
+models.py	../backend/apps/users/models.py	1;"	kind:file	line:1
+name	../backend/apps/contrib/sites/migrations/0001_initial.py	/^            name="Site",$/;"	kind:variable	line:12
+name	../backend/apps/contrib/sites/migrations/0002_alter_domain_unique.py	/^            name="domain",$/;"	kind:variable	line:12
+name	../backend/apps/properties/apps.py	/^    name = 'properties'$/;"	kind:variable	line:5
+name	../backend/apps/properties/migrations/0001_initial.py	/^            name='Property',$/;"	kind:variable	line:18
+name	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            name='guests',$/;"	kind:variable	line:15
+name	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            name='latitude',$/;"	kind:variable	line:20
+name	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            name='longitude',$/;"	kind:variable	line:25
+name	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            name='neighborhood',$/;"	kind:variable	line:30
+name	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            name='price',$/;"	kind:variable	line:35
+name	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            name='rating',$/;"	kind:variable	line:41
+name	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            name='roomates',$/;"	kind:variable	line:46
+name	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            name='rooms',$/;"	kind:variable	line:51
+name	../backend/apps/users/apps.py	/^    name = "apps.users"$/;"	kind:variable	line:6
+name	../backend/apps/users/migrations/0001_initial.py	/^            name="User",$/;"	kind:variable	line:15
+name	../backend/apps/users/models.py	/^    name = CharField(_("Name of User"), blank=True, max_length=255)$/;"	kind:variable	line:11
+name	../backend/apps/users/tests/factories.py	/^    name = Faker("name")$/;"	kind:variable	line:11
+neighborhood	../backend/apps/properties/models.py	/^    neighborhood = models.CharField(_('Neighborhood'), max_length=100, blank=True)$/;"	kind:variable	line:20
+operations	../backend/apps/contrib/sites/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:10
+operations	../backend/apps/contrib/sites/migrations/0002_alter_domain_unique.py	/^    operations = [$/;"	kind:variable	line:9
+operations	../backend/apps/contrib/sites/migrations/0003_set_site_domain_and_name.py	/^    operations = [migrations.RunPython(update_site_forward, update_site_backward)]$/;"	kind:variable	line:34
+operations	../backend/apps/properties/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:16
+operations	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^    operations = [$/;"	kind:variable	line:12
+operations	../backend/apps/users/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:13
+options	../backend/apps/contrib/sites/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:33
+options	../backend/apps/properties/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:28
+options	../backend/apps/users/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:125
+password	../backend/apps/users/tests/factories.py	/^    def password(self, create: bool, extracted: Sequence[Any], **kwargs):$/;"	kind:member	line:14
+permanent	../backend/apps/users/views.py	/^    permanent = False$/;"	kind:variable	line:44
+preserve_default	../backend/apps/properties/migrations/0002_auto_20191005_1710.py	/^            preserve_default=False,$/;"	kind:variable	line:37
+price	../backend/apps/properties/models.py	/^    price = models.DecimalField(_('Price'), max_digits=9, decimal_places=2)$/;"	kind:variable	line:18
+primary_key	../backend/apps/contrib/sites/migrations/0001_initial.py	/^                        primary_key=True,$/;"	kind:variable	line:20
+primary_key	../backend/apps/users/migrations/0001_initial.py	/^                        primary_key=True,$/;"	kind:variable	line:21
+production.py	../backend/config/settings/production.py	1;"	kind:file	line:1
+project	../backend/docs/conf.py	/^project = "Referred Rentals"$/;"	kind:variable	line:42
+pygments_style	../backend/docs/conf.py	/^pygments_style = "sphinx"$/;"	kind:variable	line:83
+pytestmark	../backend/apps/users/tests/test_forms.py	/^pytestmark = pytest.mark.django_db$/;"	kind:variable	line:6
+pytestmark	../backend/apps/users/tests/test_models.py	/^pytestmark = pytest.mark.django_db$/;"	kind:variable	line:4
+pytestmark	../backend/apps/users/tests/test_urls.py	/^pytestmark = pytest.mark.django_db$/;"	kind:variable	line:5
+pytestmark	../backend/apps/users/tests/test_views.py	/^pytestmark = pytest.mark.django_db$/;"	kind:variable	line:7
+queryset	../backend/apps/properties/views.py	/^    queryset = Property.objects.all()$/;"	kind:variable	line:19
+rating	../backend/apps/properties/models.py	/^    rating = models.IntegerField(_('Rating'), null=True, blank=True)$/;"	kind:variable	line:21
+ready	../backend/apps/users/apps.py	/^    def ready(self):$/;"	kind:member	line:9
+related_name	../backend/apps/users/migrations/0001_initial.py	/^                        related_name="user_set",$/;"	kind:variable	line:107
+related_name	../backend/apps/users/migrations/0001_initial.py	/^                        related_name="user_set",$/;"	kind:variable	line:118
+related_query_name	../backend/apps/users/migrations/0001_initial.py	/^                        related_query_name="user",$/;"	kind:variable	line:108
+related_query_name	../backend/apps/users/migrations/0001_initial.py	/^                        related_query_name="user",$/;"	kind:variable	line:119
+release	../backend/docs/conf.py	/^release = "0.1"$/;"	kind:variable	line:52
+request_factory	../backend/apps/conftest.py	/^def request_factory() -> RequestFactory:$/;"	kind:function	line:19
+roomates	../backend/apps/properties/models.py	/^    roomates = models.BooleanField(_('Roomates'), null=True, blank=True)$/;"	kind:variable	line:22
+rooms	../backend/apps/properties/models.py	/^    rooms = models.IntegerField(_('Rooms'), default=1)$/;"	kind:variable	line:19
+router	../backend/apps/properties/urls.py	/^router = routers.DefaultRouter()$/;"	kind:variable	line:8
+search_fields	../backend/apps/users/admin.py	/^    search_fields = ["name"]$/;"	kind:variable	line:17
+serialize	../backend/apps/contrib/sites/migrations/0001_initial.py	/^                        serialize=False,$/;"	kind:variable	line:18
+serialize	../backend/apps/users/migrations/0001_initial.py	/^                        serialize=False,$/;"	kind:variable	line:22
+serializer_class	../backend/apps/properties/views.py	/^    serializer_class = serializers.PropertySerializer$/;"	kind:variable	line:21
+serializers.py	../backend/apps/properties/serializers.py	1;"	kind:file	line:1
+settings_context	../backend/apps/utils/context_processors.py	/^def settings_context(_request):$/;"	kind:function	line:4
+slug	../backend/apps/properties/models.py	/^    slug = AutoSlugField(populate_from='title')$/;"	kind:variable	line:26
+slug_field	../backend/apps/users/views.py	/^    slug_field = "username"$/;"	kind:variable	line:14
+slug_url_kwarg	../backend/apps/users/views.py	/^    slug_url_kwarg = "username"$/;"	kind:variable	line:15
+source_suffix	../backend/docs/conf.py	/^source_suffix = ".rst"$/;"	kind:variable	line:33
+status	../backend/apps/properties/models.py	/^    status = models.PositiveSmallIntegerField($/;"	kind:variable	line:28
+tasks.py	../backend/apps/users/tasks.py	1;"	kind:file	line:1
+templates_path	../backend/docs/conf.py	/^templates_path = ["_templates"]$/;"	kind:variable	line:30
+test.py	../backend/config/settings/test.py	1;"	kind:file	line:1
+test_clean_username	../backend/apps/users/tests/test_forms.py	/^    def test_clean_username(self):$/;"	kind:member	line:10
+test_detail	../backend/apps/users/tests/test_urls.py	/^def test_detail(user: settings.AUTH_USER_MODEL):$/;"	kind:function	line:8
+test_forms.py	../backend/apps/users/tests/test_forms.py	1;"	kind:file	line:1
+test_get_object	../backend/apps/users/tests/test_views.py	/^    def test_get_object($/;"	kind:member	line:30
+test_get_redirect_url	../backend/apps/users/tests/test_views.py	/^    def test_get_redirect_url($/;"	kind:member	line:43
+test_get_success_url	../backend/apps/users/tests/test_views.py	/^    def test_get_success_url($/;"	kind:member	line:19
+test_models.py	../backend/apps/users/tests/test_models.py	1;"	kind:file	line:1
+test_redirect	../backend/apps/users/tests/test_urls.py	/^def test_redirect():$/;"	kind:function	line:21
+test_tasks.py	../backend/apps/users/tests/test_tasks.py	1;"	kind:file	line:1
+test_update	../backend/apps/users/tests/test_urls.py	/^def test_update():$/;"	kind:function	line:16
+test_urls.py	../backend/apps/users/tests/test_urls.py	1;"	kind:file	line:1
+test_user_count	../backend/apps/users/tests/test_tasks.py	/^def test_user_count(settings):$/;"	kind:function	line:10
+test_user_get_absolute_url	../backend/apps/users/tests/test_models.py	/^def test_user_get_absolute_url(user: settings.AUTH_USER_MODEL):$/;"	kind:function	line:7
+test_views.py	../backend/apps/users/tests/test_views.py	1;"	kind:file	line:1
+tests.py	../backend/apps/properties/tests.py	1;"	kind:file	line:1
+texinfo_documents	../backend/docs/conf.py	/^texinfo_documents = [$/;"	kind:variable	line:236
+title	../backend/apps/properties/models.py	/^    title = models.CharField(_('Title'), max_length=100)$/;"	kind:variable	line:17
+to	../backend/apps/users/migrations/0001_initial.py	/^                        to="auth.Group",$/;"	kind:variable	line:109
+to	../backend/apps/users/migrations/0001_initial.py	/^                        to="auth.Permission",$/;"	kind:variable	line:120
+unique	../backend/apps/contrib/sites/migrations/0002_alter_domain_unique.py	/^                unique=True,$/;"	kind:variable	line:15
+unique	../backend/apps/users/migrations/0001_initial.py	/^                        unique=True,$/;"	kind:variable	line:49
+update_site_backward	../backend/apps/contrib/sites/migrations/0003_set_site_domain_and_name.py	/^def update_site_backward(apps, schema_editor):$/;"	kind:function	line:22
+update_site_forward	../backend/apps/contrib/sites/migrations/0003_set_site_domain_and_name.py	/^def update_site_forward(apps, schema_editor):$/;"	kind:function	line:10
+urlpatterns	../backend/apps/properties/urls.py	/^urlpatterns = [$/;"	kind:variable	line:12
+urlpatterns	../backend/apps/users/urls.py	/^urlpatterns = [$/;"	kind:variable	line:10
+urlpatterns	../backend/config/urls.py	/^        urlpatterns = [path("__debug__\/", include(debug_toolbar.urls))] + urlpatterns$/;"	kind:variable	line:42
+urlpatterns	../backend/config/urls.py	/^urlpatterns = [$/;"	kind:variable	line:8
+urls.py	../backend/apps/properties/urls.py	1;"	kind:file	line:1
+urls.py	../backend/apps/users/urls.py	1;"	kind:file	line:1
+urls.py	../backend/config/urls.py	1;"	kind:file	line:1
+user	../backend/apps/conftest.py	/^def user() -> settings.AUTH_USER_MODEL:$/;"	kind:function	line:14
+user_detail_view	../backend/apps/users/views.py	/^user_detail_view = UserDetailView.as_view()$/;"	kind:variable	line:18
+user_redirect_view	../backend/apps/users/views.py	/^user_redirect_view = UserRedirectView.as_view()$/;"	kind:variable	line:50
+user_update_view	../backend/apps/users/views.py	/^user_update_view = UserUpdateView.as_view()$/;"	kind:variable	line:39
+username	../backend/apps/users/tests/factories.py	/^    username = Faker("user_name")$/;"	kind:variable	line:9
+validators	../backend/apps/contrib/sites/migrations/0001_initial.py	/^                        validators=[_simple_domain_name_validator],$/;"	kind:variable	line:28
+validators	../backend/apps/contrib/sites/migrations/0002_alter_domain_unique.py	/^                validators=[django.contrib.sites.models._simple_domain_name_validator],$/;"	kind:variable	line:16
+validators	../backend/apps/users/migrations/0001_initial.py	/^                        validators=[$/;"	kind:variable	line:50
+verbose_name	../backend/apps/contrib/sites/migrations/0001_initial.py	/^                        verbose_name="ID",$/;"	kind:variable	line:17
+verbose_name	../backend/apps/contrib/sites/migrations/0001_initial.py	/^                        verbose_name="domain name",$/;"	kind:variable	line:27
+verbose_name	../backend/apps/contrib/sites/migrations/0002_alter_domain_unique.py	/^                verbose_name="domain name",$/;"	kind:variable	line:17
+verbose_name	../backend/apps/users/apps.py	/^    verbose_name = _("Users")$/;"	kind:variable	line:7
+verbose_name	../backend/apps/users/migrations/0001_initial.py	/^                        verbose_name="ID",$/;"	kind:variable	line:23
+verbose_name	../backend/apps/users/migrations/0001_initial.py	/^                        verbose_name="active",$/;"	kind:variable	line:87
+verbose_name	../backend/apps/users/migrations/0001_initial.py	/^                        verbose_name="groups",$/;"	kind:variable	line:110
+verbose_name	../backend/apps/users/migrations/0001_initial.py	/^                        verbose_name="staff status",$/;"	kind:variable	line:79
+verbose_name	../backend/apps/users/migrations/0001_initial.py	/^                        verbose_name="superuser status",$/;"	kind:variable	line:38
+verbose_name	../backend/apps/users/migrations/0001_initial.py	/^                        verbose_name="user permissions",$/;"	kind:variable	line:121
+verbose_name	../backend/apps/users/migrations/0001_initial.py	/^                        verbose_name="username",$/;"	kind:variable	line:53
+version	../backend/docs/conf.py	/^version = "0.1"$/;"	kind:variable	line:50
+views.py	../backend/apps/properties/views.py	1;"	kind:file	line:1
+views.py	../backend/apps/users/views.py	1;"	kind:file	line:1
+wsgi.py	../backend/config/wsgi.py	1;"	kind:file	line:1

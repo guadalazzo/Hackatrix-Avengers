@@ -33,7 +33,7 @@ class Map extends Component {
             history.push(`/result/${place.id}`);
           }}
         />
-        {/* <span className='marker-price'>$ {place.price}</span> */}
+        <span className='marker-price'>$ {place.price}</span>
       </Marker>
     );
   };

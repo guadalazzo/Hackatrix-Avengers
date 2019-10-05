@@ -31,11 +31,30 @@ function Result() {
       </div>
       <div className="description">
       <div className="inqui">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, 
+          quae libero sequi at nisi temporibus quia veritatis possimus provident recusandae,
+           natus doloribus praesentium. Architecto, molestias nihil! Vero quisquam rem blanditiis.</p>
         <h2>Inquilinos anteriores</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quae libero sequi at nisi temporibus quia veritatis possimus provident recusandae, natus doloribus praesentium. Architecto, molestias nihil! Vero quisquam rem blanditiis.</p>
+       
+        <div className="user-image-title">
+        <div className="name-and-location">
+        <span className="mock-image"></span>
+        <div className="nose">
+        <h4>Carlos Hernandez</h4>
+          <p>Cordoba, Argentina</p>
+        </div>
+         
+        </div>
+        <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Quo ut totam, dolorem temporibus at, repellat veniam sed praesentium soluta,
+          </span>
+        </div>
       </div>
       <div className="price-and-description">
         <p> $ {place.price}</p>
+        <button>
+          CONTACTATE
+        </button>
       </div>
       </div>
      

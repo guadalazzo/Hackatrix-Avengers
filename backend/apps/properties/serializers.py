@@ -10,7 +10,7 @@ class PropertySerializer(serializers.ModelSerializer):
     class Meta:
         model = Property
         fields = (
-            'id', 'created', 'title', 'slug', 'content', 'status'
+            'id', 'created', 'title', 'slug', 'content', 'status', 'price', 'rooms', 'neighborhood', 'rating', 'roomates', 'guests'
         )
 
     # def get_tags(self, obj):

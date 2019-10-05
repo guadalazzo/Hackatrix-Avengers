@@ -42,7 +42,7 @@ class Map extends Component {
   };
 
   getProperties = () => {
-    axios.get('http://localhost:8000/api/properties/')
+    axios.get('http://26041c64.ngrok.io/api/properties/')
       .then(response => this.setState({properties: response.data.results}));
   }
 

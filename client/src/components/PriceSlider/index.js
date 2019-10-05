@@ -7,13 +7,10 @@ const PriceSlider = () => {
   const [maxValue, setMaxValue] = useState(10000);
 
   const marks = [minValue, maxValue].reduce((acc, value) => ({ ...acc, [value]: `${value}$` }), {});
-  console.log('TCL: PriceSlider -> marks', marks);
 
-  const handleMinValue = ([value]) => {
-    setMinValue(value);
-  };
-  const handleMaxValue = ([, value]) => {
-    setMaxValue(value);
+  const handleValueChange = ([minV, maxV]) => {
+    setMinValue(minV);
+    setMaxValue(maxV);
   };
 
   const handleInputMinValue = value => {
@@ -34,13 +31,7 @@ const PriceSlider = () => {
         <StyledInputNumber value={maxValue} onChange={handleInputMaxValue} />
       </div>
 
-      <StyledSlider
-        range
-        marks={marks}
-        defaultValue={[0, 9000]}
-        onChange={handleMinValue}
-        onAfterChange={handleMaxValue}
-      ></StyledSlider>
+      <StyledSlider range marks={marks} defaultValue={[0, 9000]} onChange={handleValueChange}></StyledSlider>
     </Container>
   );
 };

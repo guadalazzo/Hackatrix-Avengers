@@ -47,6 +47,40 @@ const Container = styled.div`
     .filters {
       padding: 20px 0;
     }
+
+    .list {
+      overflow-y: auto;
+
+      .item {
+        width: 100%;
+        padding: 20px 0 20px 10px;
+        display: flex;
+
+        .image {
+          margin-right: 6px;
+          object-fit: contain;
+          max-width: 160px;
+        }
+
+        .main-info {
+          font-size: 14px;
+
+          h3 {
+            color: white;
+          }
+
+          h3,
+          p {
+            margin: 0;
+          }
+
+          .price {
+            font-size: 24px;
+            font-weight: 700;
+          }
+        }
+      }
+    }
   }
 `;
 

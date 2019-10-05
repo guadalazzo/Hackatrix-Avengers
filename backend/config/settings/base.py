@@ -8,7 +8,7 @@ REPO_DIR = environ.Path(__file__) - 4  # / One level up from the backend folder
 ROOT_DIR = environ.Path(__file__) - 3  # /backend/config/settings/base.py - 3 = backend/)
 APPS_DIR = ROOT_DIR.path("apps")
 FRONTEND_ROOT = REPO_DIR.path('client', required=True)
-PUBLIC_ASSETS_ROOT = FRONTEND_ROOT.path('build', required=True)
+# PUBLIC_ASSETS_ROOT = FRONTEND_ROOT.path('build')
 
 env = environ.Env()
 
@@ -150,9 +150,7 @@ STATIC_ROOT = str(ROOT_DIR("staticfiles"))
 STATIC_URL = "/static/"
 # https://docs.djangoproject.com/en/dev/ref/contrib/staticfiles/#std:setting-STATICFILES_DIRS
 STATICFILES_DIRS = [
-    str(APPS_DIR.path("static")),
-    str(PUBLIC_ASSETS_ROOT.path('static')),
-    str(PUBLIC_ASSETS_ROOT)
+    str(APPS_DIR.path("static"))
 ]
 # https://docs.djangoproject.com/en/dev/ref/contrib/staticfiles/#staticfiles-finders
 STATICFILES_FINDERS = [
@@ -175,7 +173,7 @@ TEMPLATES = [
         # https://docs.djangoproject.com/en/dev/ref/settings/#std:setting-TEMPLATES-BACKEND
         "BACKEND": "django.template.backends.django.DjangoTemplates",
         # https://docs.djangoproject.com/en/dev/ref/settings/#template-dirs
-        "DIRS": [str(PUBLIC_ASSETS_ROOT), str(APPS_DIR.path("templates"))],
+        "DIRS": [str(APPS_DIR.path("templates"))],
         "OPTIONS": {
             # https://docs.djangoproject.com/en/dev/ref/settings/#template-loaders
             # https://docs.djangoproject.com/en/dev/ref/templates/api/#loader-types
